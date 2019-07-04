@@ -49,7 +49,9 @@ TypeError: Cannot read property 'commands' of null
 
 安装成功后，运行`gitbook init` 成功，问题解决。
 
-**我猜测安装 gitbook3.2.3 版本都会遇到这个问题，卸载重装果然复现了这个问题。 在 terminal 运行以下命令可以快速解决这个问题**
+我猜测安装 gitbook3.2.3 版本都会遇到这个问题，卸载重装复现了这个问题。 在 terminal 运行以下命令可以快速解决这个问题
 
 `cd ~/.gitbook/versions/3.2.3/ && npm install source-map debug`
 
+
+但是换了一台电脑，安装运行`gitbook init`后并没有遇到这个问题。

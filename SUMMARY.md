@@ -7,4 +7,7 @@
     * [阿里前端委员会主席圆心：未来前端的机会在哪里？](articles/opportunities-for-the-future-of-front-end.md)
 * [遇到的问题 & 解决方法](solutions/readme.md)
     * [我使用 gitbook 遇到过的问题](solutions/problems-cought-while-using-gitbook.md)
+    * [美化你的文档: 线上图标资源](solutions/online-badge-sources.md)
+* [前端知识点](front-end/readme.md)
+    * [保留空格](front-end/reserve-space.md)
 
