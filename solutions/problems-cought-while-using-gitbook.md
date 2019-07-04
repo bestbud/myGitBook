@@ -1,4 +1,4 @@
-# 我使用gitbook遇到过的问题
+# 我使用 gitbook 遇到过的问题
 
 ## 安装后首次运行 `gitbook init` 报错
 
@@ -20,7 +20,7 @@ Error loading version latest: Error: Cannot find module 'debug'
 TypeError: Cannot read property 'commands' of null
 ```
 
-找不到依赖库 `debug`，解决思路为找到gitbook安装目录重新安装依赖库：
+找不到依赖库 `debug`，解决思路为找到 gitbook 安装目录重新安装依赖库：
 
 1. 运行`cd  ~/.gitbook/versions/3.2.3/`
 2. 运行 `rm -rf node_modules && npm install`
@@ -43,13 +43,13 @@ Error loading version latest: Error: Cannot find module 'source-map'
 TypeError: Cannot read property 'commands' of null
 ```
 
-这次是找不到依赖库`source-map`， 看了下package.json，里面没有添加这个依赖库， 安装一个
+这次是找不到依赖库`source-map`， 看了下 package.json，里面没有添加这个依赖库， 安装一个
 
 * 运行`npm install source-map`
 
 安装成功后，运行`gitbook init` 成功，问题解决。
 
-**我猜测安装gitbook3.2.3版本都会遇到这个问题，卸载重装果然复现了这个问题。 在terminal运行以下命令可以快速解决这个问题**
+**我猜测安装 gitbook3.2.3 版本都会遇到这个问题，卸载重装果然复现了这个问题。 在 terminal 运行以下命令可以快速解决这个问题**
 
 `cd ~/.gitbook/versions/3.2.3/ && npm install source-map debug`
 
