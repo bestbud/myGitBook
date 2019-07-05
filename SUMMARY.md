@@ -10,4 +10,8 @@
     * [美化你的文档: 线上图标资源](solutions/online-badge-sources.md)
 * [前端知识点](front-end/readme.md)
     * [保留空格](front-end/reserve-space.md)
+* [常用工具&使用技巧](tools/readme.md)
+    * [webStorm](tools/webstorm.md)
+    * [alfred](tools/alfred.md)
+    * [mac](tools/mac.md)
 
