@@ -15,4 +15,5 @@
     * [webStorm](tools/webstorm.md)
     * [alfred](tools/alfred.md)
     * [mac](tools/mac.md)
+    * [excel](tools/excel.md)
 
