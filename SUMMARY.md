@@ -9,6 +9,7 @@
 * [遇到的问题 & 解决方法](solutions/readme.md)
     * [我使用 gitbook 遇到过的问题](solutions/problems-cought-while-using-gitbook.md)
     * [美化你的文档: 线上图标资源](solutions/online-badge-sources.md)
+    * [设置特定文件在 git diff 的时候不显示具体内容差异](solutions/git-attributes-binary.md)
 * [前端知识点](front-end/readme.md)
     * [保留空格](front-end/reserve-space.md)
 * [常用工具&使用技巧](tools/readme.md)
