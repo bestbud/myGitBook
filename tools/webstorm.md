@@ -5,7 +5,7 @@
 代替 markdown 插件，对 markdown 的支持更好
 ### translation
 翻译，选中内容后从右键菜单选择操作或直接使用快捷键
-   - `⌃⌘Y`：选择翻译器
+   - `⌃⌘Y`：选择翻译器,可选项有google、Youdao、baidu; Youdao需要注册[有道智云](http://ai.youdao.com/gw.s)创建应用并绑定翻译实例，并在webStorm translation的设置中填写应用id 和应用秘钥。百度也需要类似操作。
    - `⌃⌘O`：翻译并替换
    - `⌃⌘U`：翻译
    - `⌃⌘I`：显示翻译对话框
@@ -141,7 +141,19 @@
 1. \> 设置 Caret Row 光标所在行的背景色 
 
 
+## 其他
+### webstorm内存溢出 配置参数
+1. 菜单栏 help
+1. \> Edit Custom VM options 
+1. 编辑 `webstorm.vmoptions` 中的
+  - 第二行：-Xms526m 
+  - 第三行：-Xmx1024m 
 
+### exclude node-modules
 
-
+1. `⌘，`打开Preference 
+1. \> Editor 
+1. \> File Types
+1. \> 编辑右侧窗口底部`Ignore files and folders`编辑框内容, 添加 `node-modules;` 
+1. \> 点击`OK`按钮
 
