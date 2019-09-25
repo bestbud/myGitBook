@@ -12,6 +12,7 @@
     * [设置特定文件在 git diff 的时候不显示具体内容差异](solutions/git-attributes-binary.md)
 * [前端知识点](front-end/readme.md)
     * [保留空格](front-end/reserve-space.md)
+    * [订阅邮件阅读笔记](front-end/reading-notes.md)
 * [常用工具&使用技巧](tools/readme.md)
     * [webStorm](tools/webstorm.md)
     * [alfred](tools/alfred.md)
