@@ -18,4 +18,5 @@
     * [alfred](tools/alfred.md)
     * [mac](tools/mac.md)
     * [excel](tools/excel.md)
+    * [shell](tools/shell.md)
 
