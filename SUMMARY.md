@@ -14,6 +14,7 @@
     * [保留空格](front-end/reserve-space.md)
     * [订阅邮件阅读笔记](front-end/reading-notes.md)
     * [如何使Chrome显示小于12px字体？](front-end/by-pass-chrome-minimum_font_limit.md)
+    * [调用video.play()报错](front-end/video-play-interrupted-err.md)
 * [常用工具&使用技巧](tools/readme.md)
     * [webStorm](tools/webstorm.md)
     * [alfred](tools/alfred.md)
