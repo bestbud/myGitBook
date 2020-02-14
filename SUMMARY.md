@@ -10,6 +10,7 @@
     * [我使用 gitbook 遇到过的问题](solutions/problems-cought-while-using-gitbook.md)
     * [美化你的文档: 线上图标资源](solutions/online-badge-sources.md)
     * [设置特定文件在 git diff 的时候不显示具体内容差异](solutions/git-attributes-binary.md)
+    * [mac homebrew 安装速度慢](solutions/brew-install-too-slow.md)
 * [前端知识点](front-end/readme.md)
     * [保留空格](front-end/reserve-space.md)
     * [订阅邮件阅读笔记](front-end/reading-notes.md)
